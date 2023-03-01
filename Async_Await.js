@@ -1,3 +1,5 @@
+// async and wait feature
+
 async function myFunction() {
     try {
     const result = await myPromise;
