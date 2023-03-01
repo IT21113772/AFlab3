@@ -1,3 +1,5 @@
+// New writing to a file
+
 const fs = require('fs');
 fs.writeFile('file.txt', 'Hello World!', function (err) {
  if (err) throw err;
